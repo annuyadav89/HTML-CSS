@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .img1{
+            position: absolute;
+           
+
+        }
+
+        img{
+            margin: 10px;
+        }
+        div{  
+            border: 1px solid black;
+        }
+        /* .img2{
+            position: relative;
+            top: 100px;
+            bottom: 100px;
+        } */
+        .container{
+            position: relative;
+            height: 5000px;
+            background-color: beige;
+        }
+       .img3{
+        position: fixed;
+       }
+       .img2{
+        position: sticky;
+        top: 500px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="download.jpeg"
+        alt="pic-1"
+        width="300px"
+        height="300px"
+        class="img1"
+        />
+
+        <img src="downloadee.jpeg"
+        alt="pic-2"
+        width="300px"
+        height="300px"
+        class="img2"
+        />
+
+        <img src="superpowerful-angry-hanuman-wallpaper.jpg"
+        alt="pic-3"
+        width="300px"
+        height="300px"
+        class="img3"
+        />
+    </div>
+</body>
+</html>
