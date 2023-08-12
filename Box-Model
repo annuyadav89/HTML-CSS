@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: blueviolet;
+            border-style: solid;
+            border-width: 2px;
+            border-color: brown;
+        }
+        .first{
+            background-color: aquamarine;
+border: solid black 2px;
+height: 30px;
+padding: 30px;
+margin: 50px;
+
+        }
+        .second{
+            background-color: blanchedalmond;
+        }
+        #third{
+background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birth Day Dear Dharmishth !</h1>
+
+    <p class="first">We all wish you a very very happy birthday to you. </p>
+
+    <p class="second
+    ">God Bless You</p>
+
+    <p id="third">My blessing you Achieve all gaols in your life. may god give you jouyfull and pleasurable life.</p>
+
+    
+</body>
+</html>
